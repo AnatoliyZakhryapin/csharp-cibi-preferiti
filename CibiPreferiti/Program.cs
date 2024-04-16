@@ -7,6 +7,12 @@
             string[] cibiPreferiti = { "Sushi", "Parmigiana", "Gelato al pistacchio salato", "Lasagna", "Pasta alla carbonara", "Ravioli", "Bistecca alla fiorentina", "Ceviche", "Tiramisù", "Curry di pollo" };
 
             Console.WriteLine(cibiPreferiti.Length);
+
+            Console.WriteLine("Classifica cibi:");
+            for (int i = 0; i < cibiPreferiti.Length; i++)
+            {
+                Console.WriteLine($"{i + 1}. {cibiPreferiti[i]}");
+            };
         }
     }
 }
