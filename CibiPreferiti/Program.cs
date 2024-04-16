@@ -22,6 +22,12 @@
 
             // Stampiamo il cibo preferito
             Console.WriteLine($"Il mio cibo preferito è: {ciboPreferito}");
+
+            // Otteniamo il ultimo elemento dell'array cibiPreferiti
+            string ciboMenoPreferito = cibiPreferiti.Last();
+
+            // Stampiamo il cibo meno preferito
+            Console.WriteLine($"Il mio cibo meno preferito è: {ciboMenoPreferito}");
         }
     }
 }
