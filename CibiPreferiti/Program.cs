@@ -16,6 +16,12 @@
             {
                 Console.WriteLine($"{i + 1}. {cibiPreferiti[i]}");
             };
+
+            // Otteniamo il primo elemento dell'array cibiPreferiti
+            string ciboPreferito = cibiPreferiti.First();
+
+            // Stampiamo il cibo preferito
+            Console.WriteLine($"Il mio cibo preferito è: {ciboPreferito}");
         }
     }
 }
